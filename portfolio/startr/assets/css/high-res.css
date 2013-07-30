@@ -1,0 +1,25 @@
+/* - STARTR HTML TEMPLATE
+------------------------------------------------- 
+	Description: Main CSS styles
+	Author: Myles Sanigar
+	Author URL: http://www.mylessanigar.co.uk ;
+	Template URL: http://www.mylessanigar.co.uk/portfolio/startr/ ;
+	Notes: Start CSS styles and Mobile first approach. Consider mimifying your CSS for performance.
+/*
+
+
+/* - CONTENTS
+-------------------------------------------------
+	- HI RES CSS ......................... 1.0.
+*/
+
+/*********************************************
+	- 1.0 -  HIGH RES CSS
+*********************************************/
+
+	/* EXAMPLE	
+  .logo {
+  	background: url(logo2x.jpg) no-repeat;
+  	background-size: 212px 303px;
+  }
+  */

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+
+		<title>Myles Sanigar &bull; Front End Web Developer</title>
+		<meta name="description" content="Personal website of Myles Sanigar" />
+		<meta name="author" content="Myles Sanigar" />
+
+		<!--Grab the Stylesheets-->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+		
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="sixteen columns alpha omega">
+				<a href="index.html"><img class="brand" src="img/logo.png" alt="Logo - Myles Sanigar"></a>
+				<nav class="main-nav sixteen columns">
+					<ul class="ten columns alpha">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Work</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="blog.html">Blog</a></li>	
+					</ul>
+					<div class="social six columns omega">
+							<a href="https://www.facebook.com/myles.sanigar.9" target="_blank"></a>
+							<a href="http://www.linkedin.com/pub/myles-sanigar/49/419/786" target="_blank"></a>
+							<a href="https://twitter.com/msanigar" target="_blank"></a>
+					</div> <!--Close Social Div-->
+				</nav>
+			</header>
+	      	<section class="sixteen columns feature">
+		        <div class="flexslider">
+		          <ul class="slides">
+		            	<li>
+		  	    	    <img src="img/feature-1.png" alt="Featured">
+		  	    		</li>
+		  	    		<li>
+		  	    	    <img src="img/feature-2.png" alt="Featured">
+		  	    		</li>
+		          </ul>
+		        </div><!--Close Flexslider Div-->
+	     	</section>
+	     	<div class="sixteen columns">
+		      	<div class="h-border">
+					<div class="heading">
+						<h1>Latest News</h1>
+					</div><!--Close "Heading" Div-->
+				</div><!--Close H-border Div-->
+			</div>
+			<section class="latest-work row">
+				<div class="one-third column thumbnail">
+					<a href="../blog-post01.html">
+						<img src="img/thumb-1.jpg" alt="Thumb">
+						<div class="details">
+							<h2>Blog Post #1</h2>
+							<p>Check out my latest blog post!</p>
+						</div><!--Close Details Div-->
+					</a>
+				</div><!--Close Thumbnail Div-->
+				<div class="one-third column thumbnail">
+					<a href="../portfolio/startr/" target="_blank">
+						<img src="img/thumb-00.jpg" alt="Thumb">
+						<div class="details">
+							<h2>StartR</h2>
+							<p>StartR template.</p>
+						</div><!--Close Details Div-->
+					</a>
+				</div><!--Close Thumbnail Div-->
+				<div class="one-third column thumbnail">
+					<a href="../portfolio/bell" target="_blank">
+						<img src="img/thumb-01.jpg" alt="Thumb">
+						<div class="details">
+							<h2>Bell Corporate Finance</h2>
+							<p>I made a new website, view it here.</p>
+						</div><!--Close Details Div-->
+					</a>
+				</div><!--Close Thumbnail Div-->
+			</section>
+			<div class="sixteen columns row">
+		      	<div class="h-border">
+					<div class="heading">
+						<h2>About</h2>
+					</div><!--Close "Heading" Div-->
+				</div><!--Close H-border Div-->
+				<div class="focused-text">
+					My name is Myles.
+					I am a Manchester based post-graduate of Web Design &amp; Development, working for Boohoo.com as a Front End Developer. 
+					I am passionate about all things web, and strive to become the best Front End Developer I can be.
+				</div><!--Close Focused-text Div-->
+			</div>
+			<div class="row">
+				<div class="eight columns center">
+					<div class="h-border">
+						<div class="heading">
+							<h2>Web Development</h2>
+						</div><!--Close "Heading" Div-->
+					</div><!--Close H-border Div-->
+					<img src="img/icon-1.png" alt="Icon 1">
+					<p class="focused-text">PHP, MySQL, HTML (5), CSS (3) and JavaScript.  They are my tools.</p>
+				</div>
+				<div class="eight columns center">
+					<div class="h-border">
+						<div class="heading">
+							<h2>Web Design</h2>
+						</div><!--Close "Heading" Div-->
+					</div><!--Close H-border Div-->
+					<img src="img/icon-2.png" alt="Icon 2">
+					<p class="focused-text">Adobe Photoshop, Illustrator and InDesign.  They are my canvas.</p>
+				</div>
+			</div>
+			<footer class="row">
+				<div class="eight columns omega">
+					<p>&copy; 2013 &bull; <a href="#">Myles Sanigar</a></p>
+				</div>
+					<nav class="eight columns alpha">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Work</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="blog.html">Blog</a></li>
+						</ul>
+					</nav>
+			</footer>
+		</div><!--Close Container Div-->
+		
+		<!--Grab JS Files-->
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js" ></script>
+		<script type="text/javascript">
+			// Can also be used with $(document).ready()
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide"
+			  });
+			});
+		</script>
+	</body>
+</html>
